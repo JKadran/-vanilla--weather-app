@@ -34,7 +34,7 @@ li {
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 5px;
-  background: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+  background: radial-gradient(circle at 10% 20%, rgb(137, 210, 253) 0%, rgb(255, 241, 188) 90%);
 }
 .overview {
   margin-bottom: 20px;
@@ -52,7 +52,7 @@ li {
 }
 .degreese {
   font-size: 300%;
-  margin-top: 20px;
+  
 }
 
 .indicators {
