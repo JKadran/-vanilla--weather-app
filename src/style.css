@@ -74,9 +74,14 @@ li {
 .indicators {
   position: relative;
   right: -55px;
+  bottom: 20px;
+  
+  
 }
 
-
+.dsc {
+  text-transform: uppercase;
+}
 
 
 
