@@ -1,7 +1,10 @@
 body {
   font-family: arial, sans-serif;
+  
  
 }
+
+
 
 h1 {
   color: #878787;
@@ -15,7 +18,7 @@ ul {
 }
 li {
   list-style: none;
-  text-transform: capitalize;
+  text-transform: none;
   margin: 0;
   padding: 0;
   color: #878787;
@@ -23,6 +26,9 @@ li {
   font-weight: 100;
 }
 
+.description {
+  text-transform: uppercase;
+}
 .weather-app-wrapper {
   max-width: 600px;
   margin: 30px auto;
@@ -35,7 +41,7 @@ li {
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 5px;
-  background: radial-gradient(circle at 10% 20%, rgb(137, 210, 253) 0%, rgb(255, 241, 188) 90%);
+  background: radial-gradient(circle at 10% 20%, rgb(255, 246, 236) 39.5%, rgba(100, 46, 122, 0.23) 100.2%);
 }
 .overview {
   margin-bottom: 20px;
@@ -50,13 +56,28 @@ li {
   position: relative;
   font-size: 15px;
   top: -40px;
+  
 }
 .degreese {
   font-size: 300%;
   
 }
 
+.active {
+  text-decoration: none;
+  color: black;
+  cursor: default;
+  
+}
+
+
 .indicators {
   position: relative;
   right: -55px;
 }
+
+
+
+
+
+
